@@ -1,4 +1,4 @@
-# go-winio [![Build Status](https://github.com/microsoft/go-winio/actions/workflows/ci.yml/badge.svg)](https://github.com/microsoft/go-winio/actions/workflows/ci.yml)
+# go-winio
 
 This repository contains utilities for efficiently performing Win32 IO operations in
 Go. Currently, this is focused on accessing named pipes and other file handles, and
@@ -10,6 +10,12 @@ newer operating systems. This is similar to the implementation of network socket
 package.
 
 Please see the LICENSE file for licensing information.
+
+## Fork from original module
+
+This is a fork from the [original module](https://github.com/microsoft/go-winio).
+
+If Tailscale's PRs merge upstream, we will ideally then be able to discontinue this fork.
 
 ## Contributing
 
