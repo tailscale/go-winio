@@ -5,10 +5,10 @@ package fs
 import (
 	"golang.org/x/sys/windows"
 
-	"github.com/Microsoft/go-winio/internal/stringbuffer"
+	"github.com/tailscale/go-winio/internal/stringbuffer"
 )
 
-//go:generate go run github.com/Microsoft/go-winio/tools/mkwinsyscall -output zsyscall_windows.go fs.go
+//go:generate go run github.com/tailscale/go-winio/tools/mkwinsyscall -output zsyscall_windows.go fs.go
 
 // https://learn.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-createfilew
 //sys CreateFile(name string, access AccessMask, mode FileShareMode, sa *windows.SecurityAttributes, createmode FileCreationDisposition, attrs FileFlagOrAttribute, templatefile windows.Handle) (handle windows.Handle, err error) [failretval==windows.InvalidHandle] = CreateFileW

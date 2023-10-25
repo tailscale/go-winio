@@ -5,7 +5,7 @@ package etwlogrus
 import (
 	"github.com/sirupsen/logrus"
 
-	"github.com/Microsoft/go-winio/pkg/etw"
+	"github.com/tailscale/go-winio/pkg/etw"
 )
 
 // etw provider

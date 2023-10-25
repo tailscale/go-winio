@@ -9,7 +9,7 @@ import (
 
 	"golang.org/x/sys/windows"
 
-	"github.com/Microsoft/go-winio/internal/fs"
+	"github.com/tailscale/go-winio/internal/fs"
 )
 
 // ResolvePath returns the final path to a file or directory represented, resolving symlinks,

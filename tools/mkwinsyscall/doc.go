@@ -52,6 +52,6 @@ Flags
 	-utf16
 	      Encode string arguments as UTF-16 for syscalls not ending in 'A' or 'W' (default true).
 	-winio
-	      Import this package ("github.com/Microsoft/go-winio").
+	      Import this package ("github.com/tailscale/go-winio").
 */
 package main

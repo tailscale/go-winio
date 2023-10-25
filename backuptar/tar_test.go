@@ -12,7 +12,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Microsoft/go-winio"
+	"github.com/tailscale/go-winio"
 	"golang.org/x/sys/windows"
 )
 

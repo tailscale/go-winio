@@ -12,7 +12,7 @@ import (
 	"runtime"
 	"unicode/utf16"
 
-	"github.com/Microsoft/go-winio/internal/fs"
+	"github.com/tailscale/go-winio/internal/fs"
 	"golang.org/x/sys/windows"
 )
 

@@ -6,7 +6,7 @@ import (
 
 	"golang.org/x/sys/windows"
 
-	"github.com/Microsoft/go-winio/internal/stringbuffer"
+	"github.com/tailscale/go-winio/internal/stringbuffer"
 )
 
 var (
