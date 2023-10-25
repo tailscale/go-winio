@@ -10,11 +10,11 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/Microsoft/go-winio/pkg/guid"
+	"github.com/tailscale/go-winio/pkg/guid"
 	"golang.org/x/sys/windows"
 )
 
-//go:generate go run github.com/Microsoft/go-winio/tools/mkwinsyscall -output zsyscall_windows.go socket.go
+//go:generate go run github.com/tailscale/go-winio/tools/mkwinsyscall -output zsyscall_windows.go socket.go
 
 //sys getsockname(s windows.Handle, name unsafe.Pointer, namelen *int32) (err error) [failretval==socketError] = ws2_32.getsockname
 //sys getpeername(s windows.Handle, name unsafe.Pointer, namelen *int32) (err error) [failretval==socketError] = ws2_32.getpeername

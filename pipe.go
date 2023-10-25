@@ -16,7 +16,7 @@ import (
 
 	"golang.org/x/sys/windows"
 
-	"github.com/Microsoft/go-winio/internal/fs"
+	"github.com/tailscale/go-winio/internal/fs"
 )
 
 //sys connectNamedPipe(pipe windows.Handle, o *windows.Overlapped) (err error) = ConnectNamedPipe

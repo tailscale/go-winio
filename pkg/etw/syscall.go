@@ -2,7 +2,7 @@
 
 package etw
 
-//go:generate go run github.com/Microsoft/go-winio/tools/mkwinsyscall -output zsyscall_windows.go syscall.go
+//go:generate go run github.com/tailscale/go-winio/tools/mkwinsyscall -output zsyscall_windows.go syscall.go
 
 //sys eventRegister(providerId *windows.GUID, callback uintptr, callbackContext uintptr, providerHandle *providerHandle) (win32err error) = advapi32.EventRegister
 

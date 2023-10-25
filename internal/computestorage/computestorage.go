@@ -7,10 +7,10 @@ import (
 
 	"golang.org/x/sys/windows"
 
-	"github.com/Microsoft/go-winio/internal/interop"
+	"github.com/tailscale/go-winio/internal/interop"
 )
 
-//go:generate go run github.com/Microsoft/go-winio/tools/mkwinsyscall -output zsyscall_windows.go computestorage.go
+//go:generate go run github.com/tailscale/go-winio/tools/mkwinsyscall -output zsyscall_windows.go computestorage.go
 
 // https://learn.microsoft.com/en-us/virtualization/api/hcs/reference/hcsformatwritablelayervhd
 //
